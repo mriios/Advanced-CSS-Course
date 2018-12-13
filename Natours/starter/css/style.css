@@ -6,3 +6,68 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
+
+:root {
+	--main-text-color: #777;
+	--green-light: #7ed56f;
+	--green-light-o: rgba(126, 213, 111, 0.8);
+	--green-medium: #55c57a;
+	--green-medium-o: rgba(40, 180, 131, 0.8);
+	--green-dark: #28b485;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 1.7;
+	color: var(--main-text-color);
+	padding: 30px;
+}
+#header {
+	height: 95vh;
+	background-image: 
+		linear-gradient(to right bottom, 
+		var(--green-light-o), 
+		var(--green-medium-o)), 
+		url(../img/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+}
+#logo-box {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+#logo {
+	height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+/* Animations */
+.animated_left {
+  animation: moveInLeft 1s ease-in-out;
+}
+.animated_right {
+  animation: moveInRight 1s ease-in-out;
+}
+.animated_bottom {
+  animation: moveInBottom 1s ease-in-out;
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-15rem);
+  }
+  85% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(15rem);
+  }
+  85% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translate(0);
+  }
+}
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  85% {
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translate(0);
+  }
+}

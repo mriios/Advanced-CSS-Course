@@ -1,0 +1,19 @@
+.text {
+  &.-center {
+    text-align: center;
+  }
+}
+
+.margin {
+  &._bottom {
+    &.-big {
+      margin-bottom: 8rem;
+    }
+    &.-medium {
+      margin-bottom: 4rem;
+    }
+    &.-small {
+      margin-bottom: 1rem;
+    }
+  }
+}
